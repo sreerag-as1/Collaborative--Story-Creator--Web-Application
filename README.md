@@ -10,19 +10,19 @@ Story Creation: Authenticated users can start a new story.
 Story Contribution: Users can add sentences to ongoing stories until the story is completed.
 JWT Authentication: Secure user sessions using JSON Web Tokens.
 CRUD Operations: Full implementation of Create, Read, and Update functionalities for stories.
-Frontend
+## Frontend
 User Authentication: Login and registration pages for managing user accounts.
 Story Management: Users can start new stories or contribute to ongoing ones.
 Ongoing and Completed Stories: View a list of stories in progress or read completed stories.
 Responsive Design: Works seamlessly across different devices.
-Technologies Used
-Backend:
+# Technologies Used
+## Backend:
 Framework: Django (using MVC pattern)
 Language: Python
 Database: MongoDB (or any other database of your choice)
 Authentication: JWT (JSON Web Token)
 API: RESTful API
-Frontend:
+## Frontend:
 Framework: React
 Languages: HTML, CSS, JavaScript
 Styling: CSS
