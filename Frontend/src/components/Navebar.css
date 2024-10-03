@@ -1,0 +1,29 @@
+#logout {
+    margin-left: 1100px;
+}
+.navbar {
+    background-color: #2101ee; /* Dark background */
+    border-bottom: 1px solid #5a5757; /* White border at the bottom */
+}
+
+.navbar .navbar-brand {
+    color: #ffcb05; /* Yellow text */
+    font-weight: bold;
+
+}
+
+.navbar-nav .nav-link {
+    color: #f80808;
+    
+}
+
+.navbar-nav .nav-link:hover {
+    color: #131005; /* Yellow on hover */
+}
+
+.navbar-toggler {
+    border-color: #ffcb05; /* Yellow border for toggler */
+}
+
+
+

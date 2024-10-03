@@ -1,0 +1,100 @@
+/* Login container styling */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 420px;
+    margin: 80px auto; /* Center the container with margin */
+    padding: 30px;
+    background-color: #f0f4f8; /* Soft light background */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+    transition: transform 0.3s ease; /* Hover effect */
+}
+
+.login-container:hover {
+    transform: translateY(-3px); /* Subtle lift effect on hover */
+}
+
+/* Title styling */
+h2 {
+    margin-bottom: 25px;
+    font-size: 28px; /* Slightly larger title */
+    color: #2c3e50; /* Darker gray for better contrast */
+    letter-spacing: 1.5px; /* Spacing between letters */
+    text-align: center; /* Centered text */
+}
+
+/* Form group styling */
+.form-group {
+    width: 100%; /* Full width for input fields */
+    margin-bottom: 20px; /* Space between form groups */
+}
+
+label {
+    display: block; /* Block display for labels */
+    margin-bottom: 8px; /* Space below labels */
+    font-weight: 500; /* Medium font weight */
+    color: #34495e; /* Medium gray for labels */
+    font-size: 15px; /* Font size for labels */
+}
+
+/* Input fields styling */
+input {
+    width: 100%; /* Full width for input fields */
+    padding: 12px; /* Padding for comfort */
+    border: 1px solid #bdc3c7; /* Light gray border */
+    border-radius: 6px; /* Rounded corners */
+    font-size: 16px; /* Font size for input fields */
+    transition: border 0.3s ease; /* Transition for border color */
+}
+
+input:focus {
+    border-color: #3498db; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3); /* Subtle shadow on focus */
+}
+
+/* Button styling */
+button {
+    width: 100%; /* Full width for button */
+    padding: 12px; /* Padding for button */
+    background-color: #e70c0c; /* Bright blue background */
+    color: #ffffff; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 6px; /* Rounded corners */
+    font-size: 17px; /* Font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition for background color */
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Error message styling */
+.error-message {
+    color: #e74c3c; /* Bright red for error messages */
+    margin-top: 12px; /* Space above error message */
+    font-size: 14px; /* Font size for error message */
+}
+
+/* Register link styling */
+.register-link {
+    margin-top: 20px; /* Space above register link */
+    color: #34495e; /* Medium gray for register text */
+    font-size: 15px; /* Font size for register link */
+    text-align: center; /* Centered text */
+}
+
+.register-link a {
+    color: #3498db; /* Bright blue for link */
+    font-weight: bold; /* Bold font for link */
+    text-decoration: none; /* Remove underline */
+}
+
+.register-link a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

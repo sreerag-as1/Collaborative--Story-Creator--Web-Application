@@ -1,0 +1,114 @@
+/* Container for the main content */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title styling */
+.title {
+  text-align: center; /* Center align the title */
+  font-size: 2.8em; /* Reduced font size for balance */
+  color: #3e7c5f; /* A calm green for a fresh look */
+  margin-bottom: 30px; /* Increased margin below title */
+  text-transform: capitalize; /* Capitalize title words */
+  letter-spacing: 1.5px; /* Slightly tighter letter spacing */
+  font-family: 'Arial', sans-serif; /* Change font family */
+}
+
+/* Story card styling */
+.story-card {
+  background-color: mistyrose; /* White background for story cards */
+  padding: 25px; /* Increased padding for comfort */
+  margin-bottom: 30px; /* Space between story cards */
+  border-radius: 12px; /* More rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Softer shadow effect */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transition effects */
+  animation: fadeIn 1s;
+}
+
+/* Story card hover effect */
+.story-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+.stretch {
+  margin-top: 4%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  padding: 50px;
+}
+
+/* Story title styling */
+.story-title {
+  font-size: 1.5em; /* Reduced font size */
+  color: #263f57; /* Darker gray for better readability */
+  margin-bottom: 15px; /* Space below the title */
+  font-weight: bold; /* Bold title for emphasis */
+}
+
+/* Story content styling */
+.story-content {
+  font-size: 1em; /* Base font size */
+  color: #4a4a4a; /* Darker gray for content */
+  margin-bottom: 15px; /* Space below content */
+  line-height: 1.8; /* Increased line height for readability */
+}
+
+/* Story details styling */
+.story-details {
+  font-size: 0.9em; /* Slightly smaller font size */
+  color: #7f8c8d; /* Light gray for details */
+  margin-bottom: 10px; /* Space below details */
+  font-style: italic; /* Italic style for differentiation */
+}
+
+/* Status styling */
+.completed {
+  color: #033418; /* Green for completed */
+  font-weight: bold; /* Bold font for emphasis */
+  text-transform: uppercase; /* Uppercase for visibility */
+}
+
+.story-card .ongoing {
+  color: hsl(31, 68%, 21%); /* Red for ongoing */
+  font-weight: bold; /* Bold font for emphasis */
+  text-transform: uppercase; /* Uppercase for visibility */
+}
+
+/* No stories message */
+.no-stories {
+  text-align: center; /* Center align the no stories message */
+  color: #95a5a6; /* Soft gray for less emphasis */
+  font-size: 1.2em; /* Medium font size */
+  margin: 50px 0; /* Space around the message */
+  font-style: italic; /* Italic style for a softer look */
+}
+
+/* Create story button styling */
+.create-story-button {
+  background-color: #2980b9; /* Bright blue background */
+  width: 20%; /* Automatic width */
+  color: #ffffff; /* White text color */
+  padding: 12px 25px; /* Padding for button */
+  border: none; /* No border */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer;
+  margin-left: 550px; /* Pointer cursor on hover */
+  margin-bottom: 30px; /* Space below button */
+  float: right; /* Align the button to the right */
+  font-size: 1em; /* Base font size for button */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transition effects */
+}
+
+/* Button hover effect */
+.create-story-button:hover {
+  background-color: #3498db; /* Lighter blue on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
